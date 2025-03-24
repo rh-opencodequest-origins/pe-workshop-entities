@@ -7,5 +7,5 @@ metadata:
     - parasol
     - insurance
 spec:
-  owner: platformengineers
+  owner: group:default/platformengineers
   domain: parasol-insurance

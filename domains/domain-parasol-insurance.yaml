@@ -4,4 +4,4 @@ metadata:
   name: parasol-insurance
   description: Everything related Parasol Insurance Online
 spec:
-  owner: platformengineers
+  owner: group:default/platformengineers
