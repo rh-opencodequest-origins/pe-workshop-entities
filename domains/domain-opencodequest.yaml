@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: "opencodequest-${{ '{{' }} user.entity.spec.memberOf[0] {{ '}}' }}"
+  description: "Everything related Open Code Quest Workshop for ${{ '{{' }} user.entity.spec.memberOf[0] {{ '}}' }}"
+spec:
+  owner: "group:default/${{ '{{' }} user.entity.spec.memberOf[0] {{ '}}' }}"

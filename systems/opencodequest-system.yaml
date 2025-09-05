@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: "opencodequest-system-${{ '{{' }} user.entity.spec.memberOf[0] {{ '}}' }}"
+  description: "Open Code Quest applications for ${{ '{{' }} user.entity.spec.memberOf[0] {{ '}}' }}"
+  tags:
+    - opencodequest
+    - workshop
+    - redhat
+spec:
+  owner: "group:default/pe${{ '{{' }} user.entity.spec.memberOf[0] {{ '}}' }}"
+  domain: opencodequest
