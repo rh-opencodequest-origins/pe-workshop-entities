@@ -4,4 +4,4 @@ metadata:
   name: "opencodequest-{{ group }}"
   description: "Everything related Open Code Quest Workshop for {{ group }}"
 spec:
-  owner: "group:default/pe{{ group }}"
+  owner: "group:default/{{ group }}"
