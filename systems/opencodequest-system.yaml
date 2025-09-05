@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: "opencodequest-system-${{ '{{' }} user.entity.spec.memberOf[0] {{ '}}' }}"
-  description: "Open Code Quest applications for ${{ '{{' }} user.entity.spec.memberOf[0] {{ '}}' }}"
+  name: "opencodequest-{{ group }}"
+  description: "Open Code Quest applications for {{ group }}"
   tags:
     - opencodequest
     - workshop
