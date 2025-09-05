@@ -8,5 +8,5 @@ metadata:
     - workshop
     - redhat
 spec:
-  owner: "group:default/pe${{ '{{' }} user.entity.spec.memberOf[0] {{ '}}' }}"
+  owner: "group:default/pe{{ group }}"
   domain: opencodequest
