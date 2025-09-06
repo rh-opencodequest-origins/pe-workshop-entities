@@ -9,4 +9,4 @@ metadata:
     - redhat
 spec:
   owner: "group:default/{{ group }}"
-  domain: opencodequest
+  domain: "opencodequest-{{ group }}"
